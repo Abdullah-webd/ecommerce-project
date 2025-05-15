@@ -49,12 +49,9 @@ const Navbar = () => {
               >
                 Products
               </Link>
-              <Link
-                to="/cart"
-                className="block px-3 py-2 text-gray-600 hover:text-gray-900"
-              >
-                Cart
-              </Link>
+               <Link to="/admin" className="text-gray-600 hover:text-gray-900">
+              Admin Dashboard
+            </Link>
               <Link
                 to="/login"
                 className="block px-3 py-2 text-gray-600 hover:text-gray-900"
